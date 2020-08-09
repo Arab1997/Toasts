@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnShortToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Short Toast" />
+
+
+    <Button
+        android:id="@+id/btnLongToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long Toast" />
+
+
+    <Button
+        android:id="@+id/btnSimpleAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Alert Dialog" />
+
+
+    <Button
+        android:id="@+id/btnAdvAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced Alert Dialog" />
+
+
+    <Button
+        android:id="@+id/btnAlertDialogWithList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog With List" />
+
+
+    <Button
+        android:id="@+id/btnDoAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DO ASYNC" />
+
+
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goto Next Activity" />
+
+
+</LinearLayout>
